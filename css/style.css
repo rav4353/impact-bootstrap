@@ -163,7 +163,12 @@ a {
     text-align: center;
     height: 250px;
     margin-top: -150px;
+    cursor: pointer;
+}
 
+.icon-box:hover {
+    background: #00b6a1;
+    transition: 2s;
 
 }
 
@@ -178,8 +183,14 @@ a {
 
 }
 
-.icon i {}
+.icon i {
+    color: rgba(255, 255, 255, 0.6);
+    ;
+}
 
+.icon i:hover {
+    color: #fff;
+}
 
 .title {
     font-weight: 700;
@@ -201,10 +212,27 @@ h2 {
     padding: 5px;
 }
 
-p{
+p {
     color: #6f6f6f;
     text-align: center;
-    font-size: 18px;
+    font-size: 17px;
     padding: 10px;
 }
 
+h3 {
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: var(--font-secondary);
+}
+
+.about-left img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.about-left p {
+    text-align: start;
+
+}
