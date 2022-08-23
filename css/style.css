@@ -161,7 +161,7 @@ a {
     height: 100%;
     width: 100%;
     text-align: center;
-    height: 282px;
+    height: 250px;
     margin-top: -150px;
 
 
@@ -192,3 +192,19 @@ a {
     color: #fff;
     transition: 0.3s;
 }
+
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+p{
+    color: #6f6f6f;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+
