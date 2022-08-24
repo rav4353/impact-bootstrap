@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+@import url('http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
 
 :root {
     --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -185,7 +186,6 @@ a {
 
 .icon i {
     color: rgba(255, 255, 255, 0.6);
-    ;
 }
 
 .icon i:hover {
@@ -234,5 +234,50 @@ h3 {
 
 .about-left p {
     text-align: start;
+}
+.about-right ul{
+    padding-left: 0;
+}
+
+.about-right ul li i{
+    text-align: left;
+    color: #00796b;
+    padding: 5px;
+}
+
+.about-right ul li {
+    list-style: none;
+    line-height: 35px;
+}
+
+.ita{
+    font-style: italic;
+    color: #222222;
+    text-align: start;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.about-right p{
+    text-align: left;
+}
+
+.video-btn{
+    background-image: url("../image/about-2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    border-radius: 25px;
 
 }
+.clients img{
+width: 50%;
+}
+
+.showcase {
+    margin-top: 50px;
+}
+.showcase-img img {
+    width: 80%;
+}
+
