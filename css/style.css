@@ -85,6 +85,7 @@ a {
 
 .nav {
     text-align: end;
+
 }
 
 .nav a {
@@ -150,6 +151,13 @@ a {
     position: relative;
 }
 
+.banner-grp {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background-color: #008374;
+}
+
 .icon-box {
     padding: 60px 30px;
     position: relative;
@@ -207,7 +215,7 @@ a {
 h2 {
     font-size: 32px;
     font-weight: 600;
-    margin-top: 20px;
+    margin-top: 120px;
     text-align: center;
     padding: 5px;
 }
@@ -226,6 +234,10 @@ h3 {
     font-family: var(--font-secondary);
 }
 
+.about-content {
+    margin-top: 50px;
+}
+
 .about-left img {
     width: 100%;
     height: auto;
@@ -235,11 +247,12 @@ h3 {
 .about-left p {
     text-align: start;
 }
-.about-right ul{
+
+.about-right ul {
     padding-left: 0;
 }
 
-.about-right ul li i{
+.about-right ul li i {
     text-align: left;
     color: #00796b;
     padding: 5px;
@@ -250,7 +263,7 @@ h3 {
     line-height: 35px;
 }
 
-.ita{
+.ita {
     font-style: italic;
     color: #222222;
     text-align: start;
@@ -258,11 +271,11 @@ h3 {
     font-weight: 400;
 }
 
-.about-right p{
+.about-right p {
     text-align: left;
 }
 
-.video-btn{
+.video-btn {
     background-image: url("../image/about-2.jpg");
     background-size: cover;
     background-position: center;
@@ -270,14 +283,54 @@ h3 {
     border-radius: 25px;
 
 }
-.clients img{
-width: 50%;
+
+.clients {
+    margin: 100px 0px;
+}
+
+.clients img {
+    width: 50%;
 }
 
 .showcase {
     margin-top: 50px;
 }
-.showcase-img img {
-    width: 80%;
+
+.showcase-img {
+    background-image: url("../image/showcase.svg");
+    height: 45vh;
+    background-position: center;
+    background-size: cover;
+
 }
 
+.showcase-txt h4 {
+    border-bottom: 1px solid #e4e4e4;
+    color: #222222;
+    font-family: var(--font-primary);
+    font-size: 14px;
+    padding: 20px 0px;
+}
+
+.showcase-txt span {
+    font-size: 40px;
+    display: inline;
+    font-weight: 700;
+    color: #00796b;
+    line-height: 40px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: #008374;
+    height: 55vh;
+}
